@@ -1,6 +1,6 @@
 # 🏛️ Advanced Library Management System – Java OOP + DSA + GUI
 
-A fully-featured **Library Management System** built from scratch in Java, showcasing **Object-Oriented Programming**, **Data Structures & Algorithms**, and **Swing GUI**. Designed for performance, scalability, and real-world usability.
+A fully-featured **Library Management System** built from scratch in Java, showcasing **Object-Oriented Programming**, and **Data Structures & Algorithms**, Designed for performance, scalability, and real-world usability.
 
 ---
 
@@ -21,9 +21,6 @@ A fully-featured **Library Management System** built from scratch in Java, showc
 - **✅ Input Validation & Custom Exceptions**  
   Robust validation with custom exceptions like `BookNotAvailableException`.
 
-- **✅ Dual Interface**  
-  **Console-based** and **Swing GUI** versions included – switch between them seamlessly.
-
 - **✅ Efficient Borrow System**  
   Tracks active borrows using `HashMap<User, ArrayList<BorrowRecord>>` and `HashMap<Book, BorrowRecord>`.
 
@@ -36,7 +33,6 @@ src/
 ├── Library/ # Core system with HashMap-based management
 ├── Utilities/ # BorrowRecord, Validator, custom exceptions
 ├── FileHandling/ # FileManager for save/load operations
-├── GUI/ # Swing-based interface (Login, Dashboard, Search, etc.)
 └── Main/ # Console & GUI entry points
 
 text
